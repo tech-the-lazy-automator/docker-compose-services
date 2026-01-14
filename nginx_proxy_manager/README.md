@@ -12,7 +12,7 @@ nginx_proxy_manager
 
 ## Instructions
 
-#### Deploy Nginx Proxy Manager on Docker
+### Deploy Nginx Proxy Manager on Docker
 1. Create directories and files
 ```bash
 # Create nginx_proxy_manager directory
