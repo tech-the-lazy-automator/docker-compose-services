@@ -25,13 +25,14 @@ cd nginx_proxy_manager
 touch docker-compose.yml
 ```
 2. Copy the content of docker-compose.yml from repo to your file
-3. Deploy the container
+3. Modify volume directory path
+4. Deploy the container
 ```bash
 # Deploy docker container
 docker compose up -d
 ```
-4. Nginx Proxy Manager web UI available at `http://<ip-address>:81`
-5. Login using [default credentials](#important-notes)
+5. Nginx Proxy Manager web UI available at `http://<ip-address>:81`
+6. Login using [default credentials](#important-notes)
 
 ### Generate SSL certificate
 
