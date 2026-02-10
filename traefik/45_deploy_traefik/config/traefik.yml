@@ -1,0 +1,7 @@
+api:
+  dashboard: true
+  insecure: true
+global:
+  sendAnonymousUsage: false
+log:
+  level: DEBUG

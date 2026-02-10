@@ -1,0 +1,9 @@
+services:
+  traefik:
+    image: traefik:v3.6.6
+    container_name: traefik
+    ports:
+      - 8080:8080
+    volumes:
+      - ./config/traefik.yml:/etc/traefik/traefik.yml:ro
+    restart: unless-stopped
