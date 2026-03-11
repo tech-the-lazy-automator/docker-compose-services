@@ -7,6 +7,6 @@ services:
       - 81:81
       - 443:443
     volumes:
-      - ./volumes/data:/data
-      - ./volumes/letsencrypt:/etc/letsencrypt
+      - <HOST_MOUNT_PATH>:/data
+      - <HOST_MOUNT_PATH>:/etc/letsencrypt
     restart: unless-stopped

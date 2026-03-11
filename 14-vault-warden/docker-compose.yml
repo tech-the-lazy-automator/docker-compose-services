@@ -7,5 +7,5 @@ services:
     ports:
       - 82:80
     volumes: 
-      - ./volumes/data:/data
+      - <HOST_MOUNT_PATH>:/data
     restart: unless-stopped

@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: postgres:17.5
+    container_name: postgres
+    environemnt:
+      - POSTGRES_PASSWORD=<PASSWORD>
+      - POSTGRES_USER=<USERNAME>
+      - POSTGRES_DB=postgres
+    # ports:
+    #   - 5432:5432
+    networks:
+      - postgres
+    volumes:
+      - <HOST_MOUNT_PATH>:/var/lib/postgresql/data
+    restart: unless-stopped
+
+networks:
+  postgres:
+    external: true

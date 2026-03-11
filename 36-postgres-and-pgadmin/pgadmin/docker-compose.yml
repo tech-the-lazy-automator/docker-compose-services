@@ -1,0 +1,19 @@
+services:
+  pgadmin:
+    image: dpage/pgadmin4:9.5.0
+    container_name: pgadmin
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=<USERNAME>
+      - PGADMIN_DEFAULT_PASSWORD=<PASSWORD>
+    volumes:
+      - <HOST_MOUNT_PATH>:/var/lib/pgadmin
+    ports:
+      - 8080:80
+    networks:
+      - postgres
+    restart: unless-stopped
+
+
+networks:
+  postgres:
+    external: true

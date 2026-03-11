@@ -1,0 +1,15 @@
+services:
+  cloudflare:
+    image: cloudflare/cloudflared:2025.11.1
+    container_name: cloudflare
+    volumes:
+      - <HOST_MOUNT_PATH>:/home/nonroot/.cloudflared
+    restart: unless-stopped
+    networks:
+      - cloudflare
+    # network_mode: host
+    command: tunnel run private
+
+networks:
+  cloudflare:
+    external: true

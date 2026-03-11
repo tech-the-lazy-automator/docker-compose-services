@@ -1,0 +1,14 @@
+tunnel: <Tunnel-UUID>
+credentials-file: /root/.cloudflared/<Tunnel-UUID>.json
+warp-routing:
+  enabled: true
+ingress:
+  # - hostname: <SERVICE_NAME_1>.<DOMAIN>
+  #   service: http://<LOCAL_IP_ADDRESS>:<PORT_NUMBER>
+  # - hostname: <SERVICE_NAME_2>.<DOMAIN>
+  #   service: https://<LOCAL_IP_ADDRESS>:<PORT_NUMBER>
+  #   originrequest:
+  #     noTLSVerify: true
+  - hostname: <SERVICE_NAME_3>.<DOMAIN>
+    service: http://<SERVICE_NAME>:<PORT_NUMBER>
+  - service: http_status:404

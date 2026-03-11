@@ -1,0 +1,15 @@
+services:
+  duplicati:
+    image: linuxserver/duplicati
+    container_name: duplicati
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=[ADD_TIMEZONE]
+    volumes:
+      - <HOST_MOUNT_PATH>:/config
+      - <HOST_BACKUP_MOUNT_PATH>:/backups
+      - <HOST_MOUNT_PATH>:/source
+    ports:
+      - 83:8200
+    restart: unless-stopped
