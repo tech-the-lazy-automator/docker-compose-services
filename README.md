@@ -21,12 +21,12 @@ Here's the list of services included in this collection:
 ---
 
 ### Connect with me
-[![Youtube](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/c5befcea2289d1ef176367527db584bffceca7e6/assets/youtube.svg)](https://www.youtube.com/@Tech-TheLazyAutomator)
-[![Facebook](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/c5befcea2289d1ef176367527db584bffceca7e6/assets/facebook.svg)](https://www.facebook.com/techthelazyautomator/)
-[![Instagram](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/c5befcea2289d1ef176367527db584bffceca7e6/assets/instagram.svg)](https://www.instagram.com/tech.thelazyautomator/)
-[![LinkedIn](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/c5befcea2289d1ef176367527db584bffceca7e6/assets/linkedin.svg)](https://www.linkedin.com/in/tech-the-lazy-automator-58264732b/)
-[![Reddit](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/c5befcea2289d1ef176367527db584bffceca7e6/assets/reddit.svg)](https://www.reddit.com/r/TechTheLazyAutomator/)
-[![Twitter](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/c5befcea2289d1ef176367527db584bffceca7e6/assets/twitter.svg)](https://twitter.com/TechTheLazyAuto/)
-[![Discord](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/c5befcea2289d1ef176367527db584bffceca7e6/assets/discord.svg)](https://discord.gg/EHcn4knGW4)
-[![Email](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/c5befcea2289d1ef176367527db584bffceca7e6/assets/email.svg)](mailto:tech.lazyautomator@gmail.com)
-[![Website](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/c5befcea2289d1ef176367527db584bffceca7e6/assets/website.svg)](https://lzautomations.com)
+[![Youtube](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/social-links/youtube.svg)](https://www.youtube.com/@Tech-TheLazyAutomator)
+[![Facebook](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/social-links/facebook.svg)](https://www.facebook.com/techthelazyautomator/)
+[![Instagram](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/social-links/instagram.svg)](https://www.instagram.com/tech.thelazyautomator/)
+[![LinkedIn](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/social-links/linkedin.svg)](https://www.linkedin.com/in/tech-the-lazy-automator-58264732b/)
+[![Reddit](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/social-links/reddit.svg)](https://www.reddit.com/r/TechTheLazyAutomator/)
+[![Twitter](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/social-links/twitter.svg)](https://twitter.com/TechTheLazyAuto/)
+[![Discord](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/social-links/discord.svg)](https://discord.gg/EHcn4knGW4)
+[![Email](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/social-links/email.svg)](mailto:tech.lazyautomator@gmail.com)
+[![Website](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/social-links/website.svg)](https://lzautomations.com)
