@@ -9,14 +9,14 @@ Here's the list of services included in this collection:
 
 | Service | TL;DR | Full Guide |
 |---------|-------------|-------------|
-| [**Nginx Proxy Manager**](./13-nginx-proxy-manager/README.md) | Get FREE Domain and SSL for Local Network. | [▶ Watch](https://youtu.be/acturgE4TmE)
-| [**Vaultwarden**](./14-vault-warden/README.md) | Self-Host Your Password Manager. |[▶ Watch](https://youtu.be/kJOkmxKGKEg)
-| [**Duplicati**](./19-duplicati/README.md) | Self-Host Docker Backup Solution for Youself. |[▶ Watch](https://youtu.be/m3iQXgF8AQk)
-| [**Portainer**](./24-portainer/README.md) | Manage Your Docker Containers seemlessly. |[▶ Watch](https://youtu.be/iYnXiyk8oZQ)
-| [**Postgres + pgAdmin**](./36-postgres-and-pgadmin/README.md) | Self-host Your own database Postgres with pgAdmin. |[▶ Watch](https://youtu.be/V_FnlCKnhbM)
-| [**Cloudflare Tunnel**](./44-cloudflare-tunnel/README.md) | Expose Your Local Services with Cloudflare Tunnel Securely. |[▶ Watch](https://youtu.be/gMXz7kmp3tE)
-| [**Traefik - Deployment**](./45-traefik-p1/README.md) | Get Started with Traefik. |[▶ Watch](https://youtu.be/7jwUh9_R_x8)
-| [**Traefik - Generate SSL**](./46-traefik-p2/README.md) | Automate SSL Certificates Renewal with Let's Encrypt and Traefik. |[▶ Watch](https://youtu.be/ZclbFeP2REA)
+| [**Nginx Proxy Manager**](./13-nginx-proxy-manager/README.md) | Get FREE Domain and SSL for Local Network. | [![Watch](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/action-buttons/watch.svg)](https://youtu.be/acturgE4TmE)
+| [**Vaultwarden**](./14-vault-warden/README.md) | Self-Host Your Password Manager. |[![Watch](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/action-buttons/watch.svg)](https://youtu.be/kJOkmxKGKEg)
+| [**Duplicati**](./19-duplicati/README.md) | Self-Host Docker Backup Solution for Youself. |[![Watch]( https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/action-buttons/watch.svg)](https://youtu.be/m3iQXgF8AQk)
+| [**Portainer**](./24-portainer/README.md) | Manage Your Docker Containers seemlessly. |[![Watch](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/action-buttons/watch.svg)](https://youtu.be/iYnXiyk8oZQ)
+| [**Postgres + pgAdmin**](./36-postgres-and-pgadmin/README.md) | Self-host Your own database Postgres with pgAdmin. |[![Watch](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/action-buttons/watch.svg)](https://youtu.be/V_FnlCKnhbM)
+| [**Cloudflare Tunnel**](./44-cloudflare-tunnel/README.md) | Expose Your Local Services with Cloudflare Tunnel Securely. |[![Watch](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/action-buttons/watch.svg)](https://youtu.be/gMXz7kmp3tE)
+| [**Traefik - Deployment**](./45-traefik-p1/README.md) | Get Started with Traefik. |[![Watch](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/action-buttons/watch.svg)](https://youtu.be/7jwUh9_R_x8)
+| [**Traefik - Generate SSL**](./46-traefik-p2/README.md) | Automate SSL Certificates Renewal with Let's Encrypt and Traefik. |[![Watch](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/action-buttons//watch.svg)](https://youtu.be/ZclbFeP2REA)
 
 ---
 

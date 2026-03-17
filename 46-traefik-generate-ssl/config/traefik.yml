@@ -26,8 +26,8 @@ certificatesResolvers:
     acme:
       # email: example@email.com
       storage: /var/traefik/certs/acme.json
-      caServer: https://acme-v02.api.letsencrypt.org/directory # prod (default)
-      # caServer: https://acme-staging-v02.api.letsencrypt.org/directory # staging
+      # caServer: https://acme-v02.api.letsencrypt.org/directory # prod (default)
+      caServer: https://acme-staging-v02.api.letsencrypt.org/directory # staging
       dnsChallenge:
         provider: cloudflare
         resolvers:

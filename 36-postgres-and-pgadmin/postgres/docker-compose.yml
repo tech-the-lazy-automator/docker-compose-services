@@ -2,7 +2,7 @@ services:
   postgres:
     image: postgres:17.5
     container_name: postgres
-    environemnt:
+    environment:
       - POSTGRES_PASSWORD=<PASSWORD>
       - POSTGRES_USER=<USERNAME>
       - POSTGRES_DB=postgres

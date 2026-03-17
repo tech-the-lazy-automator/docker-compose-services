@@ -3,7 +3,7 @@ services:
     image: dpage/pgadmin4:9.5.0
     container_name: pgadmin
     environment:
-      - PGADMIN_DEFAULT_EMAIL=<USERNAME>
+      - PGADMIN_DEFAULT_EMAIL=<EMAIL_ID>
       - PGADMIN_DEFAULT_PASSWORD=<PASSWORD>
     volumes:
       - <HOST_MOUNT_PATH>:/var/lib/pgadmin
