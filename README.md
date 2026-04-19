@@ -15,8 +15,9 @@ Here's the list of services included in this collection:
 | [**Portainer**](./24-portainer/README.md) | Manage Your Docker Containers seemlessly. |[![Watch](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/action-buttons/watch.svg)](https://youtu.be/iYnXiyk8oZQ)
 | [**Postgres + pgAdmin**](./36-postgres-and-pgadmin/README.md) | Self-host Your own database Postgres with pgAdmin. |[![Watch](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/action-buttons/watch.svg)](https://youtu.be/V_FnlCKnhbM)
 | [**Cloudflare Tunnel**](./44-cloudflare-tunnel/README.md) | Expose Your Local Services with Cloudflare Tunnel Securely. |[![Watch](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/action-buttons/watch.svg)](https://youtu.be/gMXz7kmp3tE)
-| [**Traefik - Deployment**](./45-traefik-p1/README.md) | Get Started with Traefik. |[![Watch](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/action-buttons/watch.svg)](https://youtu.be/7jwUh9_R_x8)
-| [**Traefik - Generate SSL**](./46-traefik-p2/README.md) | Automate SSL Certificates Renewal with Let's Encrypt and Traefik. |[![Watch](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/action-buttons//watch.svg)](https://youtu.be/ZclbFeP2REA)
+| [**Traefik - Deployment**](./45-traefik-deployment/README.md) | Get Started with Traefik. |[![Watch](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/action-buttons/watch.svg)](https://youtu.be/7jwUh9_R_x8)
+| [**Traefik - Generate SSL**](./46-traefik-generate-ssl/README.md) | Automate SSL Certificates Renewal with Let's Encrypt and Traefik. |[![Watch](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/action-buttons//watch.svg)](https://youtu.be/ZclbFeP2REA)
+| [**Traefik - Providers**](./47-traefik-providers/README.md) | Configure Providers and Apply Middlewares in Traefik. |[![Watch](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/action-buttons//watch.svg)](https://youtu.be/uFZ9KW44uio)
 
 ---
 

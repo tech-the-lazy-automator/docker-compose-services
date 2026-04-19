@@ -1,0 +1,29 @@
+services:
+  traefik:
+    image: traefik:v3.6.6
+    container_name: traefik
+    environment:
+      - CF_DNS_API_TOKEN=${CF_DNS_API_TOKEN}
+    command:
+      - "--certificatesresolvers.cloudflare.acme.email=${CF_API_EMAIL}"
+    ports:
+      - 80:80
+      - 443:443
+      # - 8080:8080
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./config/traefik.yml:/etc/traefik/traefik.yml:ro
+      - ${DOCKER_VOL_PATH}/traefik/config.yml:/etc/traefik/config.yml:ro
+      - ${DOCKER_VOL_PATH}/acme.json:/var/traefik/certs/acme.json
+    restart: unless-stopped
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.traefik.tls=true
+      - traefik.http.routers.traefik.entrypoints=websecure
+      - traefik.http.services.traefik.loadbalancer.server.port=8080
+      - traefik.http.routers.traefik.rule=Host(`traefik.${SUB_DOMAIN}.${DOMAIN}`)
+
+      - traefik.http.routers.traefik.tls.certresolver=cloudflare
+      - traefik.http.routers.traefik.service=api@internal
+      - traefik.http.routers.traefik.tls.domains[0].main=${SUB_DOMAIN}.${DOMAIN}
+      - traefik.http.routers.traefik.tls.domains[0].sans=*.${SUB_DOMAIN}.${DOMAIN}
