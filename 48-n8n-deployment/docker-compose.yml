@@ -1,0 +1,36 @@
+services:
+  n8n:
+    image: n8nio/n8n:2.17.2
+    container_name: n8n
+    environment:
+      # - N8N_SECURE_COOKIE=false
+      
+      # Database
+      - DB_TYPE=postgresdb
+      - DB_POSTGRESDB_HOST=postgres
+      - DB_POSTGRESDB_PORT=5432
+      - DB_POSTGRESDB_DATABASE=${N8N_DB_NAME}
+      - DB_POSTGRESDB_USER=${N8N_DB_USER}
+      - DB_POSTGRESDB_PASSWORD=${N8N_DB_PASSWORD}
+      - DB_POSTGRESDB_SCHEMA=public
+    # ports:
+    #   - 5678:5678
+    volumes:
+      - ./n8n_volume:/home/node/.n8n
+    restart: unless-stopped
+    networks:
+      - traefik
+      - postgres
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=traefik
+      - traefik.http.routers.n8n.tls=true
+      - traefik.http.routers.n8n.entrypoints=websecure
+      - traefik.http.services.n8n.loadbalancer.server.port=5678
+      - traefik.http.routers.n8n.rule=Host(`n8n.${SUB_DOMAIN}.${DOMAIN}`)
+
+networks:
+  traefik:
+    external: true
+  postgres:
+    external: true

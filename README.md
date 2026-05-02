@@ -18,6 +18,7 @@ Here's the list of services included in this collection:
 | [**Traefik - Deployment**](./45-traefik-deployment/README.md) | Get Started with Traefik. |[![Watch](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/action-buttons/watch.svg)](https://youtu.be/7jwUh9_R_x8)
 | [**Traefik - Generate SSL**](./46-traefik-generate-ssl/README.md) | Automate SSL Certificates Renewal with Let's Encrypt and Traefik. |[![Watch](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/action-buttons//watch.svg)](https://youtu.be/ZclbFeP2REA)
 | [**Traefik - Providers**](./47-traefik-providers/README.md) | Configure Providers and Apply Middlewares in Traefik. |[![Watch](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/action-buttons//watch.svg)](https://youtu.be/uFZ9KW44uio)
+| [**n8n - Deployment**](./48-n8n-deployment/README.md) | Get Started with n8n. |[![Watch](https://raw.githubusercontent.com/tech-the-lazy-automator/tech-the-lazy-automator/main/assets/action-buttons/watch.svg)](https://youtu.be/TL1MCGp9VYA)
 
 ---
 
